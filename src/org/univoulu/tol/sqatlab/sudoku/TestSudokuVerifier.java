@@ -31,8 +31,14 @@ public class TestSudokuVerifier {
 	@Test
 	public void testCheckAllDigitsAppearOnlyOnceInSubGrid() {
 		SudokuVerifier answer=new SudokuVerifier();
-		answer.verifyRuleSecond("4");
-		
+		answer.verifyRuleSecond(3);
+		assertEquals("0", "0");
+		answer.verifyRuleSecond(2);
+		assertEquals("0", "0");
+		answer.verifyRuleSecond(1);
+		assertEquals("0", "0");
+		answer.verifyRuleSecond(3);
+		assertEquals("-2", "-2");
 	//	assertEquals("4", "4");
 	}
 	

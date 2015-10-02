@@ -72,3 +72,10 @@ RefactoringAction 1443779141994 SudokuVerifier.java RENAME verifyRuleSecond(Stri
 EditAction 1443779148183 SudokuVerifier.java 890 4 5 0
 CompilationAction 1443779148447 SudokuVerifier.java
 EditAction 1443779152192 TestSudokuVerifier.java 751 3 10 3
+CompilationAction 1443779152499 TestSudokuVerifier.java
+RefactoringAction 1443779238343 SudokuVerifier.java ADD List<Int> ans FIELD
+RefactoringAction 1443779240859 SudokuVerifier.java RENAME ans=>List<Int> answerList FIELD
+RefactoringAction 1443779298505 SudokuVerifier.java ADD import java.util.ArrayList/2 IMPORT
+RefactoringAction 1443779298506 SudokuVerifier.java ADD import java.util.List IMPORT
+RefactoringAction 1443779303023 SudokuVerifier.java REMOVE import java.util.ArrayList/2 IMPORT
+EditAction 1443779533325 TestSudokuVerifier.java 948 3 17 7
