@@ -65,3 +65,4 @@ RefactoringAction 1443778881345 TestSudokuVerifier.java RENAME testCheckAllDigit
 RefactoringAction 1443778883860 TestSudokuVerifier.java RENAME testCheckAllDigitsAppearOnlyOnceInSub()=>void testCheckAllDigitsAppearOnlyOnceInSubGr() METHOD
 RefactoringAction 1443778885374 TestSudokuVerifier.java RENAME testCheckAllDigitsAppearOnlyOnceInSubGr()=>void testCheckAllDigitsAppearOnlyOnceInSubGrid() METHOD
 EditAction 1443778903642 TestSudokuVerifier.java 743 3 11 4
+EditAction 1443778949426 SudokuVerifier.java 805 3 5 0

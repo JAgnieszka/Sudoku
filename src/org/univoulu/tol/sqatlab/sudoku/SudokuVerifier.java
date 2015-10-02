@@ -12,7 +12,7 @@ public class SudokuVerifier {
 	public int verify(String candidateSolution) {
 		
 		// returns 1 if the candidate solution is correct
-		return 4;
+		return 0;
 	}
 	public int verifytest(String candidateSolution) {
 		
