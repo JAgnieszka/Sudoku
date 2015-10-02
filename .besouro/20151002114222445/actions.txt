@@ -102,3 +102,6 @@ UnitTestCaseAction 1443781065586 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443781065587 TestSudokuVerifier OK
 EditAction 1443781488791 SudokuVerifier.java 1160 4 6 0
 EditAction 1443781490691 TestSudokuVerifier.java 919 3 17 7
+RefactoringAction 1443782389703 SudokuVerifier.java ADD int FIELD
+RefactoringAction 1443782447377 SudokuVerifier.java REMOVE tab FIELD
+EditAction 1443782467336 SudokuVerifier.java 1242 4 8 0

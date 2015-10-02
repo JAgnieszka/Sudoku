@@ -17,12 +17,15 @@ public class SudokuVerifier {
 		return 0;
 	}
 	public int verifytest(String candidateSolution) {
+		int [][] tab = {{4,1,7},{3,6,9}};
+		System.out.println(tab);
 		
 		// returns 1 if the candidate solution is correct
 		return 4;
 	}
 	
 	public int verifyRuleOne(int i) {
+		
 		if(i>=1 && i<=9)
 		{
 			System.out.println("The first rule is filfilled");
@@ -50,6 +53,10 @@ public class SudokuVerifier {
 		
 		
 		
+		
 	}
+	
+	
+	
 }
 
