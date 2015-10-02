@@ -30,5 +30,9 @@ public class SudokuVerifier {
 		return -1;
 		
 	}
+	public int verifyRuleSecond(int i) {
+		// TODO Auto-generated method stub
+		
+	}
 }
 
