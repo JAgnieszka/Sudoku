@@ -19,7 +19,7 @@ public class TestSudokuVerifier {
 		SudokuVerifier answer=new SudokuVerifier();
 		answer.verifyRuleOne(4);
 		
-		assertEquals("4", "4");
+		assertEquals("0", "0");
 	}
 
 }
