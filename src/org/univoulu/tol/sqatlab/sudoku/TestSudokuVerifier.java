@@ -33,7 +33,7 @@ public class TestSudokuVerifier {
 		SudokuVerifier answer=new SudokuVerifier();
 		answer.verifytest("4");
 		
-		assertEquals("4", "4");
+	//	assertEquals("4", "4");
 	}
 	
 
