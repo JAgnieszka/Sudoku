@@ -27,5 +27,14 @@ public class TestSudokuVerifier {
 		answer.verifyRuleOne(10);		
 		assertEquals("-1", "-1");
 	}
+	
+	@Test
+	public void testCheckAllDigitsAppearOnlyOnceInSubGrid() {
+		SudokuVerifier answer=new SudokuVerifier();
+		answer.verifytest("4");
+		
+		assertEquals("4", "4");
+	}
+	
 
 }
