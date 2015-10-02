@@ -41,6 +41,7 @@ public class SudokuVerifier {
 			answerList.add(i);
 			return 0;
 		}
+	
 //		for(int j=0;j<=answerList.size(); j++){
 //			int tmp=answerList.get(j);
 //
