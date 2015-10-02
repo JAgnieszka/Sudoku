@@ -34,13 +34,19 @@ public class SudokuVerifier {
 	}
 	public int verifyRuleSecond(int i) {
 		
-		answerList.add(i);
-		for(int j=0;j<=answerList.size(); j++){
-			int tmp=answerList.get(j);
-
-			System.out.println("tmp "+tmp);
+		
+		if(answerList.contains(i)){
+			return -2;
+		}else{
+			answerList.add(i);
+			return 0;
 		}
-		return 0;
+//		for(int j=0;j<=answerList.size(); j++){
+//			int tmp=answerList.get(j);
+//
+//			System.out.println("tmp "+tmp);
+//		}
+		
 		
 		
 	}
