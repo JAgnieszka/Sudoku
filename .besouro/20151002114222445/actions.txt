@@ -70,3 +70,5 @@ EditAction 1443779099417 TestSudokuVerifier.java 745 3 10 3
 RefactoringAction 1443779129964 SudokuVerifier.java ADD void verifyRuleSecond(String) METHOD
 RefactoringAction 1443779141994 SudokuVerifier.java RENAME verifyRuleSecond(String)=>int verifyRuleSecond(int) METHOD
 EditAction 1443779148183 SudokuVerifier.java 890 4 5 0
+CompilationAction 1443779148447 SudokuVerifier.java
+EditAction 1443779152192 TestSudokuVerifier.java 751 3 10 3
