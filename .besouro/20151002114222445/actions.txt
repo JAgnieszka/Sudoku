@@ -1,3 +1,11 @@
 FileOpenedAction 1443775342721 TestSudokuVerifier.java 216 1 1 0
 EditAction 1443777074531 SudokuVerifier.java 202 1 1 0
 EditAction 1443777074672 TestSudokuVerifier.java 285 1 3 1
+UnitTestCaseAction 1443777075472 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443777075474 TestSudokuVerifier OK
+RefactoringAction 1443777179945 SudokuVerifier.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1443777277558 SudokuVerifier.java ADD String correc FIELD
+RefactoringAction 1443777279070 SudokuVerifier.java RENAME correc=>String correctS FIELD
+RefactoringAction 1443777282083 SudokuVerifier.java RENAME correctS=>String correctString FIELD
+RefactoringAction 1443777598728 SudokuVerifier.java ADD int counter FIELD
+EditAction 1443777691491 SudokuVerifier.java 380 1 1 0
