@@ -16,10 +16,16 @@ public class TestSudokuVerifier {
 	
 	@Test
 	public void testCheckValidSodukuSolution() {
-		SudokuVerifier answer=new SudokuVerifier();
-		answer.verifyRuleOne(4);
 		
+		SudokuVerifier answer=new SudokuVerifier();
+		
+		//good answer
+		answer.verifyRuleOne(4);		
 		assertEquals("0", "0");
+		
+		//bad answer
+		answer.verifyRuleOne(10);		
+		assertEquals("-1", "-1");
 	}
 
 }
