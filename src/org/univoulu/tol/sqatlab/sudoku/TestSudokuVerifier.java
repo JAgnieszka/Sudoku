@@ -33,12 +33,12 @@ public class TestSudokuVerifier {
 		SudokuVerifier answer=new SudokuVerifier();
 		answer.verifyRuleSecond(3);
 		assertEquals("0", "0");
-//		answer.verifyRuleSecond(2);
-//		assertEquals("0", "0");
-//		answer.verifyRuleSecond(1);
-//		assertEquals("0", "0");
-//		answer.verifyRuleSecond(3);
-//		assertEquals("-2", "-2");
+		answer.verifyRuleSecond(2);
+		assertEquals("0", "0");
+		answer.verifyRuleSecond(1);
+		assertEquals("0", "0");
+		answer.verifyRuleSecond(3);
+		assertEquals("-2", "-2");
 	//	assertEquals("4", "4");
 	}
 	
