@@ -35,10 +35,9 @@ public class SudokuVerifier {
 	public int verifyRuleSecond(int i) {
 		
 		answerList.add(i);
-//		i.
 		for(int j=0;j<=answerList.size(); j++){
 			int tmp=answerList.get(j);
-//			if(tmp.equals(i))
+
 			System.out.println("tmp "+tmp);
 		}
 		return 0;
