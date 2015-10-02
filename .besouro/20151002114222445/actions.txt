@@ -79,3 +79,14 @@ RefactoringAction 1443779298505 SudokuVerifier.java ADD import java.util.ArrayLi
 RefactoringAction 1443779298506 SudokuVerifier.java ADD import java.util.List IMPORT
 RefactoringAction 1443779303023 SudokuVerifier.java REMOVE import java.util.ArrayList/2 IMPORT
 EditAction 1443779533325 TestSudokuVerifier.java 948 3 17 7
+CompilationAction 1443779535792 SudokuVerifier.java
+CompilationAction 1443779535963 SudokuVerifier.java
+RefactoringAction 1443779562873 SudokuVerifier.java REMOVE answerList FIELD
+RefactoringAction 1443779572914 SudokuVerifier.java ADD List<Integer> answerList FIELD
+CompilationAction 1443780333867 SudokuVerifier.java
+CompilationAction 1443780333867 SudokuVerifier.java
+CompilationAction 1443780473438 SudokuVerifier.java
+CompilationAction 1443780473439 SudokuVerifier.java
+UnitTestCaseAction 1443780474278 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443780474279 TestSudokuVerifier FAIL
+EditAction 1443780496311 SudokuVerifier.java 1106 4 8 0

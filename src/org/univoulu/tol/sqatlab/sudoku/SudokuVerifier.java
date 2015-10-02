@@ -1,13 +1,15 @@
 package org.univoulu.tol.sqatlab.sudoku;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class SudokuVerifier {
 	
-	//ArrayList<E>
 	String correctString = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 
 	int counter=0;
+	
+	List<Integer> answerList =new ArrayList<Integer>();
 	
 	public int verify(String candidateSolution) {
 		
@@ -31,7 +33,16 @@ public class SudokuVerifier {
 		
 	}
 	public int verifyRuleSecond(int i) {
-		// TODO Auto-generated method stub
+		
+		answerList.add(i);
+//		i.
+		for(int j=0;j<=answerList.size(); j++){
+			int tmp=answerList.get(j);
+//			if(tmp.equals(i))
+			System.out.println("tmp "+tmp);
+		}
+		return 0;
+		
 		
 	}
 }
