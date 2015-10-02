@@ -24,3 +24,6 @@ RefactoringAction 1443777896099 TestSudokuVerifier.java RENAME testCheckValidSod
 RefactoringAction 1443777954200 SudokuVerifier.java ADD void verifyRuleOne(String) METHOD
 RefactoringAction 1443777970564 SudokuVerifier.java RENAME verifyRuleOne(String)=>void verifyRuleOne(int) METHOD
 EditAction 1443778242424 TestSudokuVerifier.java 457 2 6 2
+CompilationAction 1443778242688 TestSudokuVerifier.java
+CompilationAction 1443778242688 TestSudokuVerifier.java
+EditAction 1443778244729 SudokuVerifier.java 664 3 4 0

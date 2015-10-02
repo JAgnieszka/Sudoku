@@ -13,4 +13,19 @@ public class SudokuVerifier {
 		// returns 1 if the candidate solution is correct
 		return 4;
 	}
+	public int verifytest(String candidateSolution) {
+		
+		// returns 1 if the candidate solution is correct
+		return 4;
+	}
+	public int verifyRuleOne(int i) {
+		if(i>=1 && i<=9)
+		{
+			System.out.print("The first rule is filfilled");
+			return 0;
+			}
+		return -1;
+		
+	}
 }
+
