@@ -40,7 +40,7 @@ public class TestSudokuVerifier {
 			String result;
 			
 			//bad answer
-			result=answer.verify(correctString);		
+			result=answer.verify(incorrectString2);		
 			assertEquals("-1", result);
 		}
 		
