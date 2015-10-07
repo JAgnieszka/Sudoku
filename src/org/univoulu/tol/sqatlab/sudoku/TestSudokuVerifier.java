@@ -11,6 +11,15 @@ public class TestSudokuVerifier {
 
 
 	@Test
+	public void tests() {
+		SudokuVerifier answer=new SudokuVerifier();
+		answer.verify(correctString);
+		
+		assertEquals("4", "4");
+	}
+	
+	
+	@Test
 	public void test() {
 		SudokuVerifier answer=new SudokuVerifier();
 		answer.verifytest("4");

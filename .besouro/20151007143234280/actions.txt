@@ -11,3 +11,6 @@ RefactoringAction 1444218840398 TestSudokuVerifier.java ADD String correctString
 RefactoringAction 1444218840399 TestSudokuVerifier.java ADD String inncorrectString FIELD
 EditAction 1444218861777 TestSudokuVerifier.java 1145 3 17 7
 EditAction 1444218864236 SudokuVerifier.java 1137 4 6 0
+RefactoringAction 1444219056327 TestSudokuVerifier.java ADD void test()/2 METHOD
+RefactoringAction 1444219064355 TestSudokuVerifier.java RENAME test()/2=>void tests() METHOD
+EditAction 1444219087716 TestSudokuVerifier.java 1298 4 20 8
