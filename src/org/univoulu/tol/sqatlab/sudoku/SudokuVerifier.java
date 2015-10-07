@@ -18,8 +18,8 @@ public class SudokuVerifier {
 
 				tab[row][column] = candidateSolution.charAt(length);
 				length++;
-				System.out.println(tab[row][column]);
-				System.out.println("length " + length);
+//				System.out.println(tab[row][column]);
+//				System.out.println("length " + length);
 			}
 		}
 
@@ -28,9 +28,17 @@ public class SudokuVerifier {
 		return result;
 	}
 
-	private int checkCell(char[][] tab2) {
+	private int checkCell(char[][] tab) {
 
-
+		System.out.println("***************");
+		for(int i=0; i<9;i++){
+			for(int j=0; j<3; j++){
+				System.out.print(tab[i][j]+" ");
+			}
+			System.out.println();
+		}
+		System.out.println("***************");
+		
 		return -1;
 	}
 
