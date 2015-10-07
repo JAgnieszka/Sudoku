@@ -14,9 +14,10 @@ public class TestSudokuVerifier {
 	@Test
 	public void tests() {
 		SudokuVerifier answer=new SudokuVerifier();
-		answer.verify(correctString);
+		String result;
+		result=answer.verify(correctString);
 		
-		assertEquals("0", "0");
+		assertEquals("0", result);
 	}
 	
 	//**********RULE 1********************
@@ -26,6 +27,7 @@ public class TestSudokuVerifier {
 		SudokuVerifier answer=new SudokuVerifier();
 		String result;
 		//good answer
+		
 		result=answer.verify(correctString);		
 		assertEquals("0", result);
 		
@@ -35,10 +37,11 @@ public class TestSudokuVerifier {
 		public void testCheckValidSodukuSolutionINCORRECT() {
 			
 			SudokuVerifier answer=new SudokuVerifier();
+			String result;
 			
 			//bad answer
-			answer.verify(correctString);		
-			assertEquals("-1", "-1");
+			result=answer.verify(correctString);		
+			assertEquals("-1", result);
 		}
 		
 	//************************************	
