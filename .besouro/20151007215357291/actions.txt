@@ -120,3 +120,22 @@ EditAction 1444251722411 SudokuVerifier.java 1535 2 9 0
 UnitTestCaseAction 1444251723085 TestSudokuVerifier.java OK
 UnitTestSessionAction 1444251723085 TestSudokuVerifier OK
 EditAction 1444251847528 SudokuVerifier.java 1469 2 9 0
+RefactoringAction 1444251930113 TestSudokuVerifier.java ADD void testCheckValidSodukuSolutionINCORRECT()/2 METHOD
+RefactoringAction 1444252035438 TestSudokuVerifier.java RENAME testCheckValidSodukuSolutionINCORRECT()/2=>void testCheck() METHOD
+RefactoringAction 1444252088456 TestSudokuVerifier.java RENAME testCheck()=>void testCheckA() METHOD
+RefactoringAction 1444252089470 TestSudokuVerifier.java RENAME testCheckA()=>void testCheckAP() METHOD
+RefactoringAction 1444252091982 TestSudokuVerifier.java RENAME testCheckAP()=>void testCheckAppe() METHOD
+RefactoringAction 1444252093996 TestSudokuVerifier.java RENAME testCheckAppe()=>void testCheckAppear() METHOD
+RefactoringAction 1444252100010 TestSudokuVerifier.java RENAME testCheckAppear()=>void testCheckDigiAppear() METHOD
+RefactoringAction 1444252101022 TestSudokuVerifier.java RENAME testCheckDigiAppear()=>void testCheckDigitAppear() METHOD
+RefactoringAction 1444252107040 TestSudokuVerifier.java RENAME testCheckDigitAppear()=>void testCheckDigitAppearO() METHOD
+RefactoringAction 1444252109053 TestSudokuVerifier.java RENAME testCheckDigitAppearO()=>void testCheckDigitAppearOnly() METHOD
+RefactoringAction 1444252110566 TestSudokuVerifier.java RENAME testCheckDigitAppearOnly()=>void testCheckDigitAppearOnlyIn() METHOD
+RefactoringAction 1444252113582 TestSudokuVerifier.java RENAME testCheckDigitAppearOnlyIn()=>void testCheckDigitAppearOnlyInSub() METHOD
+RefactoringAction 1444252115602 TestSudokuVerifier.java RENAME testCheckDigitAppearOnlyInSub()=>void testCheckDigitAppearOnlyInSub FIELD
+RefactoringAction 1444252119631 TestSudokuVerifier.java RENAME testCheckDigitAppearOnlyInSub()=>void testCheckDigitAppearOnlyInSubg() METHOD
+RefactoringAction 1444252120645 TestSudokuVerifier.java RENAME testCheckDigitAppearOnlyInSubg()=>void testCheckDigitAppearOnlyInSubG() METHOD
+RefactoringAction 1444252127158 TestSudokuVerifier.java RENAME testCheckDigitAppearOnlyInSubG()=>void testCheckDigitAppearOnlyInR() METHOD
+RefactoringAction 1444252128671 TestSudokuVerifier.java RENAME testCheckDigitAppearOnlyInR()=>void testCheckDigitAppearOnlyInRow() METHOD
+RefactoringAction 1444252132186 TestSudokuVerifier.java RENAME testCheckDigitAppearOnlyInRow()=>void testCheckDigitAppearOnlyInRows() METHOD
+EditAction 1444252135623 TestSudokuVerifier.java 1730 3 12 3
