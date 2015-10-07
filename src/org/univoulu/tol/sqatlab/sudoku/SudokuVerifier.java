@@ -24,9 +24,6 @@ public class SudokuVerifier {
 			}
 		}
 		
-		System.out.println(tab[0][1]);
-		System.out.println(tab[0][3]);
-		System.out.println(tab[1][3]);
 		
 		// returns 1 if the candidate solution is correct
 		return 0;
