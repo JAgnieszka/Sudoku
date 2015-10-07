@@ -144,3 +144,4 @@ UnitTestSessionAction 1444252596378 TestSudokuVerifier OK
 RefactoringAction 1444252627842 SudokuVerifier.java ADD String result FIELD
 RefactoringAction 1444252662010 SudokuVerifier.java ADD String checkRows(char METHOD
 EditAction 1444252904945 TestSudokuVerifier.java 1730 3 12 3
+EditAction 1444253063427 TestSudokuVerifier.java 1729 3 12 3
