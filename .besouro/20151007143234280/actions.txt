@@ -83,3 +83,8 @@ RefactoringAction 1444222661561 TestSudokuVerifier.java ADD void testCheckAllDig
 EditAction 1444222710127 SudokuVerifier.java 1448 4 8 0
 CompilationAction 1444222710503 SudokuVerifier.java
 EditAction 1444222711572 TestSudokuVerifier.java 1298 4 20 8
+RefactoringAction 1444222741154 SudokuVerifier.java REMOVE verifytest(String) METHOD
+RefactoringAction 1444222750167 TestSudokuVerifier.java REMOVE test() METHOD
+RefactoringAction 1444222819199 TestSudokuVerifier.java ADD String inncorrectString/2 FIELD
+RefactoringAction 1444222822216 TestSudokuVerifier.java RENAME inncorrectString/2=>String inncorrectString2 FIELD
+EditAction 1444222846273 TestSudokuVerifier.java 1267 3 17 7
