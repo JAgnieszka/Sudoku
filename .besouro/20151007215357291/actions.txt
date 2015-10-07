@@ -50,3 +50,7 @@ EditAction 1444247734962 TestSudokuVerifier.java 1548 3 10 3
 UnitTestCaseAction 1444247735660 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1444247735661 TestSudokuVerifier FAIL
 EditAction 1444247846450 TestSudokuVerifier.java 1608 3 12 3
+UnitTestCaseAction 1444247847003 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444247847003 TestSudokuVerifier FAIL
+RefactoringAction 1444247899539 SudokuVerifier.java REMOVE counter FIELD
+EditAction 1444247908265 SudokuVerifier.java 1679 3 12 0

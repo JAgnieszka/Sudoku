@@ -5,9 +5,6 @@ import java.util.List;
 
 public class SudokuVerifier {
 
-	int counter = 0;
-
-	// List<Integer> answerList =new ArrayList<Integer>();
 	char tab[][] = new char[9][9];
 
 	public String verify(String candidateSolution) {
@@ -18,39 +15,38 @@ public class SudokuVerifier {
 
 				tab[row][column] = candidateSolution.charAt(length);
 				length++;
-//				System.out.println(tab[row][column]);
-//				System.out.println("length " + length);
+				// System.out.println(tab[row][column]);
+				// System.out.println("length " + length);
 			}
 		}
 
-	//here I check Rule 1	
-	String result =checkCell(tab);
-		System.out.println("RESULT "+result);
+		// here I check Rule 1
+		String result = checkCell(tab);
+		System.out.println("RESULT " + result);
 		return result;
 	}
 
 	private String checkCell(char[][] tab) {
-		boolean flag=false;
+		boolean flag = false;
 
 		for (int row = 0; row <= 8; row++) {
 			for (int column = 0; column <= 8; column++) {
-				
+
 				if (tab[row][column] >= 1 && tab[row][column] <= 9) {
 					System.out.println("The first rule is filfilled");
-					flag=true;
-					//return 0;
-				}//else return -1;
-			
+					flag = true;
+					// return 0;
+				} // else return -1;
+
 			}
 		}
-		
-		if(flag){
+
+		if (flag) {
 			return "0";
 		}
-		
+
 		return "-1";
-		
-		
+
 	}
 
 	public int verifyRuleOne(int i) {
@@ -65,21 +61,21 @@ public class SudokuVerifier {
 
 	}
 
-//	public int verifyRuleSecond(int i) {
-//
-//		if (answerList.contains(i)) {
-//			return -2;
-//		} else {
-//			answerList.add(i);
-//			return 0;
-//		}
-//
-//		// for(int j=0;j<=answerList.size(); j++){
-//		// int tmp=answerList.get(j);
-//		//
-//		// System.out.println("tmp "+tmp);
-//		// }
-//
-//	}
+	// public int verifyRuleSecond(int i) {
+	//
+	// if (answerList.contains(i)) {
+	// return -2;
+	// } else {
+	// answerList.add(i);
+	// return 0;
+	// }
+	//
+	// // for(int j=0;j<=answerList.size(); j++){
+	// // int tmp=answerList.get(j);
+	// //
+	// // System.out.println("tmp "+tmp);
+	// // }
+	//
+	// }
 
 }
