@@ -35,17 +35,17 @@ public class SudokuVerifier {
 				if (tab[row][column] >= 1 && tab[row][column] <= 9) {
 					System.out.println("The first rule is filfilled");
 					flag = true;
-					// return 0;
-				}  else return "-1";
 
+				} else {
+					return "-1";
+				}
 			}
 		}
 
 		if (flag) {
 			return "0";
 		}
-
-		return "-1";
+		return "-7";
 
 	}
 
