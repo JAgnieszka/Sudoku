@@ -39,14 +39,14 @@ public class SudokuVerifier {
 				
 				int digit= (int) aa;
 							
-				if (digit >= 1 && digit <= 9) {
-					
-					System.out.println("The first rule is filfilled");
-					flag = true;
-
-				} else {
-					return "-1";
-				}
+//				if (digit >= 1 && digit <= 9) {
+//					
+//					System.out.println("The first rule is filfilled");
+//					flag = true;
+//
+//				} else {
+//					return "-1";
+//				}
 			}
 			System.out.println();
 		}
