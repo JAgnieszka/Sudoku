@@ -36,7 +36,7 @@ public class SudokuVerifier {
 				System.out.print(tab[row][column]+" ");
 				
 				char aa = tab[row][column];
-				
+				System.out.println("AA "+ aa);
 				int digit= (int) aa;
 							
 				if (digit >= 1 && digit <= 9) {
