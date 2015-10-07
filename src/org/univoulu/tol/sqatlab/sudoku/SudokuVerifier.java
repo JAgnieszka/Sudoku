@@ -10,7 +10,7 @@ public class SudokuVerifier {
 	// List<Integer> answerList =new ArrayList<Integer>();
 	char tab[][] = new char[9][9];
 
-	public String verify(String candidateSolution) {
+	public int verify(String candidateSolution) {
 		int length = 0;
 
 		for (int row = 0; row <= 8; row++) {
@@ -23,15 +23,15 @@ public class SudokuVerifier {
 			}
 		}
 
-	String result =checkCell(tab);
+	int result =checkCell(tab);
 		
 		return result;
 	}
 
-	private String checkCell(char[][] tab2) {
+	private int checkCell(char[][] tab2) {
 
 
-		
+		return -1;
 	}
 
 	public int verifyRuleOne(int i) {
