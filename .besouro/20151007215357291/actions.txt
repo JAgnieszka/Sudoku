@@ -146,3 +146,8 @@ RefactoringAction 1444252662010 SudokuVerifier.java ADD String checkRows(char ME
 EditAction 1444252904945 TestSudokuVerifier.java 1730 3 12 3
 EditAction 1444253063427 TestSudokuVerifier.java 1729 3 12 3
 EditAction 1444253982702 SudokuVerifier.java 1300 3 11 0
+RefactoringAction 1444254106316 SudokuVerifier.java ADD import java.util.Set IMPORT
+RefactoringAction 1444254112953 SudokuVerifier.java ADD import java.util.HashSet IMPORT
+UnitTestCaseAction 1444254359552 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444254359553 TestSudokuVerifier FAIL
+EditAction 1444254504585 TestSudokuVerifier.java 1729 3 12 3

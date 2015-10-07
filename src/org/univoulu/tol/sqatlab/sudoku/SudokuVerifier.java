@@ -1,7 +1,9 @@
 package org.univoulu.tol.sqatlab.sudoku;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class SudokuVerifier {
 
@@ -31,10 +33,23 @@ public class SudokuVerifier {
 		return result;
 	}
 
-	private String checkRows(char[][] tab2) {
+	private String checkRows(char[][] tab) {
 
 
-		return null;
+		for (int row = 0; row <= 8; row++) {
+			Set<Character> set=new HashSet();
+			for (int column = 0; column <= 8; column++) {
+				if(set.contains(tab[row][column])){
+					return "-3";
+				}else{
+					set.add(tab[row][column]);
+				}
+				
+			}
+			
+		}
+
+		return "0";
 	}
 
 	private String checkCell(char[][] tab) {
