@@ -33,12 +33,11 @@ public class SudokuVerifier {
 			for (int column = 0; column <= 8; column++) {
 
 				System.out.print(tab[row][column] + " ");
-
-				int digit = Character.getNumericValue(tab[row][column]); // change from char
-															// to int
+				
+				 // change from char to int
+				int digit = Character.getNumericValue(tab[row][column]);
 				if (digit >= 1 && digit <= 9) {
 
-					System.out.println("The first rule is filfilled");
 					flag = true;
 
 				} else {
