@@ -30,16 +30,18 @@ public class SudokuVerifier {
 
 	private int checkCell(char[][] tab) {
 
-		System.out.println("***************");
-		for(int i=0; i<9;i++){
-			for(int j=0; j<3; j++){
-				System.out.print(tab[i][j]+" ");
+		for (int row = 0; row <= 8; row++) {
+			for (int column = 0; column <= 8; column++) {
+				
+				if (tab[row][column] >= 1 && tab[row][column] <= 9) {
+					System.out.println("The first rule is filfilled");
+					return 0;
+				}else return -1;
+			
 			}
-			System.out.println();
 		}
-		System.out.println("***************");
 		
-		return -1;
+		
 	}
 
 	public int verifyRuleOne(int i) {
