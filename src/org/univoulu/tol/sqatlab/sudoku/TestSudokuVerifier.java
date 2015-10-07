@@ -37,7 +37,7 @@ public class TestSudokuVerifier {
 			SudokuVerifier answer=new SudokuVerifier();
 			
 			//bad answer
-			answer.verify(incorrectString);		
+			answer.verify(correctString);		
 			assertEquals(-1, -1);
 		}
 		
