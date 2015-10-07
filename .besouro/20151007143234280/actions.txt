@@ -88,3 +88,12 @@ RefactoringAction 1444222750167 TestSudokuVerifier.java REMOVE test() METHOD
 RefactoringAction 1444222819199 TestSudokuVerifier.java ADD String inncorrectString/2 FIELD
 RefactoringAction 1444222822216 TestSudokuVerifier.java RENAME inncorrectString/2=>String inncorrectString2 FIELD
 EditAction 1444222846273 TestSudokuVerifier.java 1267 3 17 7
+CompilationAction 1444222954662 SudokuVerifier.java
+CompilationAction 1444222954816 SudokuVerifier.java
+RefactoringAction 1444223142649 SudokuVerifier.java REMOVE verifyRuleSecond(int) METHOD
+RefactoringAction 1444223178947 TestSudokuVerifier.java REMOVE testCheckAllDigitsAppearOnlyOnceInSubGrid() METHOD
+RefactoringAction 1444223286814 SudokuVerifier.java ADD void checkCell(char METHOD
+CompilationAction 1444223345358 SudokuVerifier.java
+CompilationAction 1444223345581 SudokuVerifier.java
+CompilationAction 1444223345582 TestSudokuVerifier.java
+EditAction 1444223355710 TestSudokuVerifier.java 1304 2 8 3

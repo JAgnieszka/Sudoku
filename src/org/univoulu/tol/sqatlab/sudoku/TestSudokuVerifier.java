@@ -26,26 +26,26 @@ public class TestSudokuVerifier {
 		SudokuVerifier answer=new SudokuVerifier();
 		
 		//good answer
-		answer.verifyRuleOne(4);		
+		answer.verify(correctString);		
 		assertEquals("0", "0");
 		
 		//bad answer
-		answer.verifyRuleOne(10);		
+		answer.verify(inncorrectString2);		
 		assertEquals("-1", "-1");
 	}
 	
-	@Test
-	public void testCheckAllDigitsAppearOnlyOnceInSubGrid() {
-		SudokuVerifier answer=new SudokuVerifier();
-		answer.verifyRuleSecond(3);
-		assertEquals("0", "0");
-		answer.verifyRuleSecond(2);
-		assertEquals("0", "0");
-		answer.verifyRuleSecond(1);
-		assertEquals("0", "0");
-		answer.verifyRuleSecond(3);
-		assertEquals("-2", "-2");
-	}
+//	@Test
+//	public void testCheckAllDigitsAppearOnlyOnceInSubGrid() {
+//		SudokuVerifier answer=new SudokuVerifier();
+//		answer.verifyRuleSecond(3);
+//		assertEquals("0", "0");
+//		answer.verifyRuleSecond(2);
+//		assertEquals("0", "0");
+//		answer.verifyRuleSecond(1);
+//		assertEquals("0", "0");
+//		answer.verifyRuleSecond(3);
+//		assertEquals("-2", "-2");
+//	}
 	
 
 }
