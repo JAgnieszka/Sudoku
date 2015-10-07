@@ -6,6 +6,7 @@ import java.util.List;
 public class SudokuVerifier {
 
 	char tab[][] = new char[9][9];
+	private String result;
 
 	public String verify(String candidateSolution) {
 		int length = 0;
@@ -21,9 +22,19 @@ public class SudokuVerifier {
 		}
 
 		// here I check Rule 1
-		String result = checkCell(tab);
+		result = checkCell(tab);
+		
+		//here I check Rule 3
+		result = checkRows(tab);
+		
 		System.out.println("RESULT " + result);
 		return result;
+	}
+
+	private String checkRows(char[][] tab2) {
+
+
+		return null;
 	}
 
 	private String checkCell(char[][] tab) {
@@ -50,25 +61,8 @@ public class SudokuVerifier {
 		if (flag) {
 			return "0";
 		}
-		return "-7";
+		return "-1";
 
 	}
-
-	// public int verifyRuleSecond(int i) {
-	//
-	// if (answerList.contains(i)) {
-	// return -2;
-	// } else {
-	// answerList.add(i);
-	// return 0;
-	// }
-	//
-	// // for(int j=0;j<=answerList.size(); j++){
-	// // int tmp=answerList.get(j);
-	// //
-	// // System.out.println("tmp "+tmp);
-	// // }
-	//
-	// }
 
 }
