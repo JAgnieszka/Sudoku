@@ -28,3 +28,10 @@ RefactoringAction 1444220273580 TestSudokuVerifier.java REMOVE testCheckValidSod
 RefactoringAction 1444220273582 TestSudokuVerifier.java REMOVE testCheckAllDigitsAppearOnlyOnceInSubGrid() METHOD
 RefactoringAction 1444220273583 TestSudokuVerifier.java REMOVE test() METHOD
 EditAction 1444220278099 TestSudokuVerifier.java 1368 1 2 0
+UnitTestCaseAction 1444220279835 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444220279836 TestSudokuVerifier FAIL
+RefactoringAction 1444220330229 SudokuVerifier.java REMOVE verifyRuleOne(int) METHOD
+RefactoringAction 1444220330231 SudokuVerifier.java REMOVE verifyRuleSecond(int) METHOD
+RefactoringAction 1444220330233 SudokuVerifier.java REMOVE verifytest(String) METHOD
+CompilationAction 1444220332812 SudokuVerifier.java
+EditAction 1444220335725 TestSudokuVerifier.java 1368 1 2 0
