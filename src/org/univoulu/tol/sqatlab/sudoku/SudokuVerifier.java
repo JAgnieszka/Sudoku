@@ -29,16 +29,15 @@ public class SudokuVerifier {
 	private String checkCell(char[][] tab) {
 		boolean flag = false;
 
-		
 		for (int row = 0; row <= 8; row++) {
 			for (int column = 0; column <= 8; column++) {
-				
-				System.out.print(tab[row][column]+" ");
-				
-				char aa = tab[row][column];
-				int digit= Character.getNumericValue(aa); //change from char to int		
+
+				System.out.print(tab[row][column] + " ");
+
+				int digit = Character.getNumericValue(tab[row][column]); // change from char
+															// to int
 				if (digit >= 1 && digit <= 9) {
-					
+
 					System.out.println("The first rule is filfilled");
 					flag = true;
 
@@ -55,7 +54,6 @@ public class SudokuVerifier {
 		return "-7";
 
 	}
-
 
 	// public int verifyRuleSecond(int i) {
 	//
