@@ -154,3 +154,15 @@ EditAction 1444254504585 TestSudokuVerifier.java 1729 3 12 3
 UnitTestCaseAction 1444254505211 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1444254505212 TestSudokuVerifier FAIL
 EditAction 1444254600426 TestSudokuVerifier.java 1730 3 12 3
+UnitTestCaseAction 1444254602372 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444254602373 TestSudokuVerifier FAIL
+UnitTestCaseAction 1444254757664 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444254757665 TestSudokuVerifier OK
+UnitTestCaseAction 1444254773505 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444254773505 TestSudokuVerifier OK
+RefactoringAction 1444254810719 TestSudokuVerifier.java ADD void testCheckDigitAppearOnlyInRows()/2 METHOD
+RefactoringAction 1444254823746 TestSudokuVerifier.java RENAME testCheckDigitAppearOnlyInRows()/2=>void testCheckDigitAppearOnlyInColumn() METHOD
+RefactoringAction 1444254824761 TestSudokuVerifier.java RENAME testCheckDigitAppearOnlyInColumn()=>void testCheckDigitAppearOnlyInColumns() METHOD
+RefactoringAction 1444254841278 TestSudokuVerifier.java ADD String incorrectString2/2 FIELD
+RefactoringAction 1444254844791 TestSudokuVerifier.java RENAME incorrectString2/2=>String incorrectString4 FIELD
+EditAction 1444254894817 TestSudokuVerifier.java 2162 4 16 4

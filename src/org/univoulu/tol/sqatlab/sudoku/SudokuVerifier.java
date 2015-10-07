@@ -8,7 +8,7 @@ import java.util.Set;
 public class SudokuVerifier {
 
 	char tab[][] = new char[9][9];
-	private String result;
+	private String result="0";
 
 	public String verify(String candidateSolution) {
 		int length = 0;
@@ -25,9 +25,15 @@ public class SudokuVerifier {
 
 		// here I check Rule 1
 		result = checkCell(tab);
+		if(result.equals("-1")){
+			return "-1";
+		}
 		
 		//here I check Rule 3
 		result = checkRows(tab);
+		if(result.equals("-3")){
+			return "-3";
+		}
 		
 		System.out.println("RESULT " + result);
 		return result;
