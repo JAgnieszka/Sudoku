@@ -61,7 +61,7 @@ public class TestSudokuVerifier {
 		String result;
 
 		// bad answer
-		result = answer.verify(incorrectString);
+		result = answer.verify(incorrectString4);
 		assertEquals("-4", result);
 	}
 
