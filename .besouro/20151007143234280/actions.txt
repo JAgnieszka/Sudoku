@@ -5,3 +5,8 @@ RefactoringAction 1444218752745 SudokuVerifier.java ADD String inn FIELD
 RefactoringAction 1444218754281 SudokuVerifier.java RENAME inn=>String innco FIELD
 RefactoringAction 1444218759328 SudokuVerifier.java RENAME innco=>String inncorrectString FIELD
 EditAction 1444218768145 SudokuVerifier.java 1357 4 6 0
+RefactoringAction 1444218833886 SudokuVerifier.java REMOVE inncorrectString FIELD
+RefactoringAction 1444218833888 SudokuVerifier.java REMOVE correctString FIELD
+RefactoringAction 1444218840398 TestSudokuVerifier.java ADD String correctString FIELD
+RefactoringAction 1444218840399 TestSudokuVerifier.java ADD String inncorrectString FIELD
+EditAction 1444218861777 TestSudokuVerifier.java 1145 3 17 7
