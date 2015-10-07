@@ -18,7 +18,9 @@ public class SudokuVerifier {
 			for(int column=0; column<8; column++){
 				tab[row][column]=candidateSolution.charAt(length);
 				length++;
-				System.out.println(tab[row][column]);
+				System.out.println(tab[0][1]);
+				System.out.println(tab[0][3]);
+				System.out.println(tab[1][3]);
 			}
 		}
 		
