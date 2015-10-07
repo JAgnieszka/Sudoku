@@ -89,3 +89,7 @@ UnitTestSessionAction 1444250165709 TestSudokuVerifier FAIL
 UnitTestCaseAction 1444250326248 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1444250326249 TestSudokuVerifier FAIL
 EditAction 1444250388320 TestSudokuVerifier.java 1430 2 8 2
+UnitTestCaseAction 1444250389068 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444250389069 TestSudokuVerifier FAIL
+RefactoringAction 1444250452757 SudokuVerifier.java REMOVE verifyRuleOne(int) METHOD
+EditAction 1444250545750 SudokuVerifier.java 1529 2 9 0

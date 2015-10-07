@@ -61,17 +61,6 @@ public class SudokuVerifier {
 
 	}
 
-	public int verifyRuleOne(int i) {
-
-		if (i >= 1 && i <= 9) {
-			System.out.println("The first rule is filfilled");
-			return 0;
-		}
-		System.out.println(
-				"The first rule is not filfilled. - R1: A cell in a Sudoku game can only store positive digits, i.e. 1...9.");
-		return -1;
-
-	}
 
 	// public int verifyRuleSecond(int i) {
 	//
