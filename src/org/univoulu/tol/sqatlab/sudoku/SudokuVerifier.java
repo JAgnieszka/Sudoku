@@ -19,7 +19,7 @@ public class SudokuVerifier {
 				
 				tab[row][column]=candidateSolution.charAt(length);
 				length++;
-				
+				System.out.println(tab[row][column]);
 			}
 		}
 		
