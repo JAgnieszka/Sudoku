@@ -24,10 +24,10 @@ public class TestSudokuVerifier {
 	public void testCheckValidSodukuSolutionCORRECT() {
 		
 		SudokuVerifier answer=new SudokuVerifier();
-		
+		String result;
 		//good answer
-		answer.verify(correctString);		
-		assertEquals("0", "0");
+		result=answer.verify(correctString);		
+		assertEquals("0", result);
 		
 	}
 	
