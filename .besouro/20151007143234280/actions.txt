@@ -81,3 +81,5 @@ RefactoringAction 1444222661557 TestSudokuVerifier.java ADD void test() METHOD
 RefactoringAction 1444222661560 TestSudokuVerifier.java ADD void testCheckValidSodukuSolution() METHOD
 RefactoringAction 1444222661561 TestSudokuVerifier.java ADD void testCheckAllDigitsAppearOnlyOnceInSubGrid() METHOD
 EditAction 1444222710127 SudokuVerifier.java 1448 4 8 0
+CompilationAction 1444222710503 SudokuVerifier.java
+EditAction 1444222711572 TestSudokuVerifier.java 1298 4 20 8
