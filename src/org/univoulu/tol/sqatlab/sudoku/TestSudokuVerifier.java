@@ -19,7 +19,7 @@ public class TestSudokuVerifier {
 		
 		//good answer
 		result=answer.verify(correctString);		
-		assertEquals(0, result);
+		assertEquals("0", result);
 		
 	}
 	
