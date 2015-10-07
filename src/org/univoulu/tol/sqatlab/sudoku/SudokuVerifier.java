@@ -29,11 +29,12 @@ public class SudokuVerifier {
 	private String checkCell(char[][] tab) {
 		boolean flag = false;
 
+		
 		for (int row = 0; row <= 8; row++) {
 			for (int column = 0; column <= 8; column++) {
-				
+				int digit=tab[row][column];
 				System.out.print(tab[row][column]+" ");
-				if ((int)(tab[row][column]) >= 1 && (int)(tab[row][column]) <= 9) {
+				if (digit >= 1 && digit <= 9) {
 					
 					System.out.println("The first rule is filfilled");
 					flag = true;
