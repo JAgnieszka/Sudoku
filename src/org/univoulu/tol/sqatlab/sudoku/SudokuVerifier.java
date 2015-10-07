@@ -12,7 +12,8 @@ public class SudokuVerifier {
 	int tab[][]=new int [8][8];
 	
 	public int verify(String candidateSolution) {
-		int length=1;
+		int length=0;
+		
 		for(int row=0; row<=8; row++){
 			for(int column=0; column<8; column++){
 				tab[row][column]=candidateSolution.charAt(length);
