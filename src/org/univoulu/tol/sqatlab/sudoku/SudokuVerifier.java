@@ -12,10 +12,11 @@ public class SudokuVerifier {
 	char tab[][]=new char [8][8];
 	
 	public int verify(String candidateSolution) {
-		int length=0;
+		int length=1;
 		
 		for(int row=0; row<=8; row++){
-			for(int column=0; column<8; column++){
+			for(int column=0; column<=8; column++){
+				
 				tab[row][column]=candidateSolution.charAt(length);
 				length++;
 				
