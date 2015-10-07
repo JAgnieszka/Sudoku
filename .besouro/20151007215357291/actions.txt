@@ -16,3 +16,10 @@ UnitTestSessionAction 1444245814401 TestSudokuVerifier OK
 EditAction 1444245833148 TestSudokuVerifier.java 1292 2 8 3
 EditAction 1444245887192 SudokuVerifier.java 1706 3 11 0
 EditAction 1444246091807 TestSudokuVerifier.java 1300 2 8 3
+RefactoringAction 1444246388790 TestSudokuVerifier.java ADD void testCheckValidSodukuSolution()/2 METHOD
+RefactoringAction 1444246397808 TestSudokuVerifier.java RENAME testCheckValidSodukuSolution()/2=>void testCheckValidSodukuSolutionCORRECT() METHOD
+RefactoringAction 1444246419326 TestSudokuVerifier.java RENAME testCheckValidSodukuSolution()=>void testCheckValidSodukuSolutionIN() METHOD
+RefactoringAction 1444246421842 TestSudokuVerifier.java RENAME testCheckValidSodukuSolutionIN()=>void testCheckValidSodukuSolutionINCORRECT() METHOD
+RefactoringAction 1444246424857 TestSudokuVerifier.java RENAME inncorrectString=>String incorrectString FIELD
+RefactoringAction 1444246426871 TestSudokuVerifier.java RENAME inncorrectString2=>String incorrectString2 FIELD
+EditAction 1444246487885 TestSudokuVerifier.java 1515 3 9 3
