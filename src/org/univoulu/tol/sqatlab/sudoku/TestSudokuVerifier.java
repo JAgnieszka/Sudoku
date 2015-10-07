@@ -19,7 +19,7 @@ public class TestSudokuVerifier {
 		assertEquals(0, 0);
 	}
 	
-	
+	//RULE 1
 	@Test
 	public void testCheckValidSodukuSolution() {
 		
