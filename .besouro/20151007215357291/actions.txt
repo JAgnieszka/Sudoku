@@ -151,3 +151,6 @@ RefactoringAction 1444254112953 SudokuVerifier.java ADD import java.util.HashSet
 UnitTestCaseAction 1444254359552 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1444254359553 TestSudokuVerifier FAIL
 EditAction 1444254504585 TestSudokuVerifier.java 1729 3 12 3
+UnitTestCaseAction 1444254505211 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444254505212 TestSudokuVerifier FAIL
+EditAction 1444254600426 TestSudokuVerifier.java 1730 3 12 3
