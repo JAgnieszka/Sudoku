@@ -38,7 +38,7 @@ public class TestSudokuVerifier {
 			
 			//bad answer
 			answer.verify(correctString);		
-			assertEquals(-1, -1);
+			assertEquals("-1", "-1");
 		}
 		
 	//************************************	
