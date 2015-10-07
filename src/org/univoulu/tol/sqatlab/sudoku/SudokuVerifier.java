@@ -33,6 +33,7 @@ public class SudokuVerifier {
 			for (int column = 0; column <= 8; column++) {
 
 				if (tab[row][column] >= 1 && tab[row][column] <= 9) {
+					System.out.print(tab[row][column]+" ");
 					System.out.println("The first rule is filfilled");
 					flag = true;
 
