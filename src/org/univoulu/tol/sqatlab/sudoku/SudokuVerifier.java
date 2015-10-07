@@ -10,7 +10,7 @@ public class SudokuVerifier {
 	// List<Integer> answerList =new ArrayList<Integer>();
 	char tab[][] = new char[9][9];
 
-	public int verify(String candidateSolution) {
+	public String verify(String candidateSolution) {
 		int length = 0;
 
 		for (int row = 0; row <= 8; row++) {
@@ -24,12 +24,12 @@ public class SudokuVerifier {
 		}
 
 	//here I check Rule 1	
-	int result =checkCell(tab);
+	String result =checkCell(tab);
 		System.out.println("RESULT "+result);
 		return result;
 	}
 
-	private int checkCell(char[][] tab) {
+	private String checkCell(char[][] tab) {
 		boolean flag=false;
 
 		for (int row = 0; row <= 8; row++) {
@@ -45,10 +45,10 @@ public class SudokuVerifier {
 		}
 		
 		if(flag){
-			return 0;
+			return "0";
 		}
 		
-		return -1;
+		return "-1";
 		
 		
 	}
