@@ -23,3 +23,6 @@ RefactoringAction 1444246421842 TestSudokuVerifier.java RENAME testCheckValidSod
 RefactoringAction 1444246424857 TestSudokuVerifier.java RENAME inncorrectString=>String incorrectString FIELD
 RefactoringAction 1444246426871 TestSudokuVerifier.java RENAME inncorrectString2=>String incorrectString2 FIELD
 EditAction 1444246487885 TestSudokuVerifier.java 1515 3 9 3
+UnitTestCaseAction 1444246488503 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444246488503 TestSudokuVerifier OK
+EditAction 1444246518876 TestSudokuVerifier.java 1514 3 9 3
