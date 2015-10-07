@@ -36,7 +36,7 @@ public class SudokuVerifier {
 					System.out.println("The first rule is filfilled");
 					flag = true;
 					// return 0;
-				} // else return -1;
+				}  else return "-1";
 
 			}
 		}
