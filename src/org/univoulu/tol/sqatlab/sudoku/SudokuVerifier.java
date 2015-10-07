@@ -23,6 +23,7 @@ public class SudokuVerifier {
 			}
 		}
 
+	//here I check Rule 1	
 	int result =checkCell(tab);
 		
 		return result;
