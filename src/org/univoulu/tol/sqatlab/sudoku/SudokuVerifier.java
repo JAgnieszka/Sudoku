@@ -9,12 +9,12 @@ public class SudokuVerifier {
 	int counter=0;
 	
 //	List<Integer> answerList =new ArrayList<Integer>();
-	int tab[][]=new int [9][9];
+	int tab[][]=new int [8][8];
 	
 	public int verify(String candidateSolution) {
 		int length=1;
-		for(int row=1; row<=9; row++){
-			for(int column=1; column<9; column++){
+		for(int row=0; row<=8; row++){
+			for(int column=0; column<8; column++){
 				tab[row][column]=candidateSolution.charAt(length);
 				length++;
 				System.out.println(tab[row][column]);
