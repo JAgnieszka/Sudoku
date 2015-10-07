@@ -29,17 +29,25 @@ public class SudokuVerifier {
 	}
 
 	private int checkCell(char[][] tab) {
+		boolean flag=false;
 
 		for (int row = 0; row <= 8; row++) {
 			for (int column = 0; column <= 8; column++) {
 				
 				if (tab[row][column] >= 1 && tab[row][column] <= 9) {
 					System.out.println("The first rule is filfilled");
-					return 0;
-				}else return -1;
+					flag=true;
+					//return 0;
+				}//else return -1;
 			
 			}
 		}
+		
+		if(flag){
+			return 0;
+		}
+		
+		return -1;
 		
 		
 	}
