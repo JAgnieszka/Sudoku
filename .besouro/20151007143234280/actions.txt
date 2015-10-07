@@ -14,3 +14,6 @@ EditAction 1444218864236 SudokuVerifier.java 1137 4 6 0
 RefactoringAction 1444219056327 TestSudokuVerifier.java ADD void test()/2 METHOD
 RefactoringAction 1444219064355 TestSudokuVerifier.java RENAME test()/2=>void tests() METHOD
 EditAction 1444219087716 TestSudokuVerifier.java 1298 4 20 8
+RefactoringAction 1444219343166 SudokuVerifier.java REMOVE answerList FIELD
+RefactoringAction 1444219443793 SudokuVerifier.java ADD int tab FIELD
+EditAction 1444220151394 SudokuVerifier.java 1386 4 8 0

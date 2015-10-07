@@ -8,9 +8,18 @@ public class SudokuVerifier {
 	
 	int counter=0;
 	
-	List<Integer> answerList =new ArrayList<Integer>();
+//	List<Integer> answerList =new ArrayList<Integer>();
+	int tab[][]=new int [9][9];
 	
 	public int verify(String candidateSolution) {
+		int length=1;
+		for(int row=1; row<=9; row++){
+			for(int column=1; column<9; column++){
+				tab[row][column]=candidateSolution.charAt(length);
+				length++;
+				System.out.print(tab[row][column]);
+			}
+		}
 		
 		// returns 1 if the candidate solution is correct
 		return 0;
