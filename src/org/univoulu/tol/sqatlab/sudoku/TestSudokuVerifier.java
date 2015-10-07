@@ -31,7 +31,7 @@ public class TestSudokuVerifier {
 		
 		//bad answer
 		answer.verify(inncorrectString2);		
-		assertEquals("-1", "-1");
+		assertEquals(-1, -1);
 	}
 	
 //	@Test
