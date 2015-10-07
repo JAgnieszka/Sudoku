@@ -9,7 +9,7 @@ public class SudokuVerifier {
 	int counter=0;
 	
 //	List<Integer> answerList =new ArrayList<Integer>();
-	int tab[][]=new int [8][8];
+	char tab[][]=new char [8][8];
 	
 	public int verify(String candidateSolution) {
 		int length=0;
