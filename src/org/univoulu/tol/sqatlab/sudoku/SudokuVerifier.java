@@ -32,7 +32,7 @@ public class SudokuVerifier {
 		
 		for (int row = 0; row <= 8; row++) {
 			for (int column = 0; column <= 8; column++) {
-				int digit=tab[row][column];
+				int digit=(int)tab[row][column];
 				System.out.print(tab[row][column]+" ");
 				if (digit >= 1 && digit <= 9) {
 					
