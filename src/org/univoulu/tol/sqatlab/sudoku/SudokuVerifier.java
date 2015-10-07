@@ -9,13 +9,13 @@ public class SudokuVerifier {
 	int counter=0;
 	
 //	List<Integer> answerList =new ArrayList<Integer>();
-	char tab[][]=new char [8][8];
+	char tab[][]=new char [9][9];
 	
 	public int verify(String candidateSolution) {
 		int length=0;
 		
 		for(int row=0; row<=8; row++){
-			for(int column=0; column<=9; column++){
+			for(int column=0; column<=8; column++){
 				
 				tab[row][column]=candidateSolution.charAt(length);
 				length++;
