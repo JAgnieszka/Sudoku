@@ -38,7 +38,7 @@ public class SudokuVerifier {
 				char aa = tab[row][column];
 				System.out.println("AA "+ aa);
 				int digit= (int) aa;
-							
+				System.out.println("digit "+digit);			
 				if (digit >= 1 && digit <= 9) {
 					
 					System.out.println("The first rule is filfilled");
