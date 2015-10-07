@@ -16,7 +16,7 @@ public class TestSudokuVerifier {
 		SudokuVerifier answer=new SudokuVerifier();
 		answer.verify(correctString);
 		
-		assertEquals("0", "0");
+		assertEquals(0, 0);
 	}
 	
 	
