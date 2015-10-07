@@ -139,3 +139,8 @@ RefactoringAction 1444252127158 TestSudokuVerifier.java RENAME testCheckDigitApp
 RefactoringAction 1444252128671 TestSudokuVerifier.java RENAME testCheckDigitAppearOnlyInR()=>void testCheckDigitAppearOnlyInRow() METHOD
 RefactoringAction 1444252132186 TestSudokuVerifier.java RENAME testCheckDigitAppearOnlyInRow()=>void testCheckDigitAppearOnlyInRows() METHOD
 EditAction 1444252135623 TestSudokuVerifier.java 1730 3 12 3
+UnitTestCaseAction 1444252596377 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444252596378 TestSudokuVerifier OK
+RefactoringAction 1444252627842 SudokuVerifier.java ADD String result FIELD
+RefactoringAction 1444252662010 SudokuVerifier.java ADD String checkRows(char METHOD
+EditAction 1444252904945 TestSudokuVerifier.java 1730 3 12 3
