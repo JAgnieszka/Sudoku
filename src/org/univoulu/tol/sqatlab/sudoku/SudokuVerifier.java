@@ -68,14 +68,14 @@ public class SudokuVerifier {
 //			System.out.println("------");
 //		}
 		System.out.println("**************************");
-		for (int r = 3, c = 0, n = 3; r < n && c < n && n <= 9; c = c + 3, n = n + 3) {
-
-//			for (int row = r; row >= n; row++) {
-//				System.out.println("R="+row+" N="+ n);
+		for (int r = 3, c = 0, n = 3; c < n && n <= 9; c = c + 3, n = n + 3) {
+			System.out.println("r="+r+" n="+ n+" c="+c);
+			for (int row = r; row <= n*2; row++) {
+				System.out.println("R="+row+" N="+ n);
 				for (int column = c; column < n; column++) {
-//					System.out.print(" C="+column+" ");
+					System.out.print(" C="+column+" ");
 					System.out.print(tab[r][column] + " " + "|" + " ");
-//				}
+				}
 				
 				System.out.println();
 				System.out.println();
