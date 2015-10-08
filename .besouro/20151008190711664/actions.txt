@@ -67,3 +67,8 @@ RefactoringAction 1444323531905 TestSudokuVerifier.java ADD void testCheckValidS
 RefactoringAction 1444323545926 TestSudokuVerifier.java ADD void testCheckDigitAppearOnlyInRows() METHOD
 RefactoringAction 1444323545928 TestSudokuVerifier.java ADD void testCheckDigitAppearOnlyInColumns() METHOD
 EditAction 1444323549163 TestSudokuVerifier.java 2452 6 24 6
+UnitTestCaseAction 1444323549766 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444323549767 TestSudokuVerifier FAIL
+RefactoringAction 1444324346935 TestSudokuVerifier.java ADD String incorrectString/2 FIELD
+RefactoringAction 1444324349452 TestSudokuVerifier.java REMOVE incorrectString/2 FIELD
+EditAction 1444324366466 TestSudokuVerifier.java 2573 6 24 6
