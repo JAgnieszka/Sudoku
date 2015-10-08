@@ -13,3 +13,16 @@ UnitTestSessionAction 1444294506149 TestSudokuVerifier OK
 UnitTestCaseAction 1444294612625 TestSudokuVerifier.java OK
 UnitTestSessionAction 1444294612626 TestSudokuVerifier OK
 EditAction 1444294656009 SudokuVerifier.java 2645 5 22 0
+UnitTestCaseAction 1444294656601 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444294656602 TestSudokuVerifier OK
+UnitTestCaseAction 1444295027912 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444295027912 TestSudokuVerifier OK
+RefactoringAction 1444295052510 TestSudokuVerifier.java REMOVE testCheckDigitAppearOnlyInRows() METHOD
+RefactoringAction 1444295052512 TestSudokuVerifier.java REMOVE testCheckDigitAppearOnlyInColumns() METHOD
+RefactoringAction 1444295056531 TestSudokuVerifier.java ADD void testCheckDigitAppearOnlyInRows() METHOD
+RefactoringAction 1444295056533 TestSudokuVerifier.java ADD void testCheckDigitAppearOnlyInColumns() METHOD
+RefactoringAction 1444295059058 TestSudokuVerifier.java REMOVE testCheckDigitAppearOnlyInRows() METHOD
+RefactoringAction 1444295059060 TestSudokuVerifier.java REMOVE testCheckDigitAppearOnlyInColumns() METHOD
+RefactoringAction 1444295075581 TestSudokuVerifier.java REMOVE testCheckValidSodukuSolutionCORRECT() METHOD
+RefactoringAction 1444295075583 TestSudokuVerifier.java REMOVE testCheckValidSodukuSolutionINCORRECT() METHOD
+EditAction 1444295079337 TestSudokuVerifier.java 2205 1 4 1

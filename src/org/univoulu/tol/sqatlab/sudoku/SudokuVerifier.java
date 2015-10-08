@@ -53,12 +53,14 @@ public class SudokuVerifier {
 
 	private String checkSubGrid(char[][] tab) {
 
-		for (int r = 0, c = 0, n = 3; r < n && c < n && n <= 9; r = r + 3, c = c + 3, n = n + 3) {
+		for (int r = 0, c = 0, n = 3; r < n && c < n && n <= 9; c = c + 3, n = n + 3) {
 
 			for (int row = r; r < n; r++) {
+				
 				for (int column = c; c < n; c++) {
 					System.out.println(tab[row][column] + " " + "|" + " ");
 				}
+				
 				System.out.println();
 				System.out.println();
 			}
