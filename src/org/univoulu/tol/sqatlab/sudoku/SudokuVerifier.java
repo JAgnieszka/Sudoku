@@ -53,18 +53,37 @@ public class SudokuVerifier {
 
 	private String checkSubGrid(char[][] tab) {
 
-		for (int r = 0, c = 0, n = 3; r < n && c < n && n <= 9; c = c + 3, n = n + 3) {
+//		for (int r = 0, c = 0, n = 3, nr=n; r < n && c < n && n <= 9; c = c + 3, n = n + 3) {
+//
+//			for (int row = r; row < nr; row++) {
+////				System.out.println("R="+row+" N="+ n);
+//				for (int column = c; column < n; column++) {
+////					System.out.print(" C="+column+" ");
+//					System.out.print(tab[row][column] + " " + "|" + " ");
+//				}
+//				
+//				System.out.println();
+//				System.out.println();
+//			}
+//			System.out.println("------");
+//		}
+		System.out.println("**************************");
+		for (int r = 3, c = 0, n = 3; r < n && c < n && n <= 9; c = c + 3, n = n + 3) {
 
-			for (int row = r; r < n; r++) {
-				
-				for (int column = c; c < n; c++) {
-					System.out.println(tab[row][column] + " " + "|" + " ");
-				}
+//			for (int row = r; row >= n; row++) {
+//				System.out.println("R="+row+" N="+ n);
+				for (int column = c; column < n; column++) {
+//					System.out.print(" C="+column+" ");
+					System.out.print(tab[r][column] + " " + "|" + " ");
+//				}
 				
 				System.out.println();
 				System.out.println();
 			}
+			System.out.println("------");
 		}
+		
+		System.out.println("**********************************");
 
 		return "0";
 	}
