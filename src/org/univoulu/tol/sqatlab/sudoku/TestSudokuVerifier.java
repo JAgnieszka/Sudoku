@@ -41,7 +41,7 @@ public class TestSudokuVerifier {
 	// **********RULE 2********************
 
 		@Test
-		public void testCheckSubGrid() {
+		public void testCheckSubGridCORRECT() {
 
 			SudokuVerifier answer = new SudokuVerifier();
 			String result;
@@ -50,11 +50,19 @@ public class TestSudokuVerifier {
 			result = answer.verify(correctString);
 			assertEquals("0", result);
 			
+		}
+
+		@Test
+		public void testCheckSubGridINCORRECT() {
+
+			SudokuVerifier answer = new SudokuVerifier();
+			String result;
+
+			// good answer
 			
 			result = answer.verify(incorrectString22);
 			assertEquals("-2", result);
 		}
-
 		// **********************************
 		
 //

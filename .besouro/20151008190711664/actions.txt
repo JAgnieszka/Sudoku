@@ -49,3 +49,14 @@ FileOpenedAction 1444323288315 TestSudokuVerifier.java 2205 1 4 1
 RefactoringAction 1444323318841 TestSudokuVerifier.java ADD String incorrectString/2 FIELD
 RefactoringAction 1444323324364 TestSudokuVerifier.java RENAME incorrectString/2=>String incorrectString22 FIELD
 EditAction 1444323447209 TestSudokuVerifier.java 2408 1 6 2
+UnitTestCaseAction 1444323447831 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444323447832 TestSudokuVerifier OK
+RefactoringAction 1444323467873 TestSudokuVerifier.java RENAME testCheckSubGrid()=>void testCheckSubGridGOOD() METHOD
+RefactoringAction 1444323470916 TestSudokuVerifier.java RENAME testCheckSubGridGOOD()=>void testCheckSubGrid() METHOD
+RefactoringAction 1444323471935 TestSudokuVerifier.java RENAME testCheckSubGrid()=>void testCheckSubGridc() METHOD
+RefactoringAction 1444323473976 TestSudokuVerifier.java RENAME testCheckSubGridc()=>void testCheckSubGridcorrec() METHOD
+RefactoringAction 1444323475495 TestSudokuVerifier.java RENAME testCheckSubGridcorrec()=>void testCheckSubGrid() METHOD
+RefactoringAction 1444323478012 TestSudokuVerifier.java RENAME testCheckSubGrid()=>void testCheckSubGridCORRECT() METHOD
+RefactoringAction 1444323487533 TestSudokuVerifier.java ADD void testCheckSubGridCORRECT()/2 METHOD
+RefactoringAction 1444323493052 TestSudokuVerifier.java RENAME testCheckSubGridCORRECT()/2=>void testCheckSubGridINCORRECT() METHOD
+EditAction 1444323512291 TestSudokuVerifier.java 2566 2 8 2
