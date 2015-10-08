@@ -5,3 +5,11 @@ RefactoringAction 1444293969117 TestSudokuVerifier.java RENAME testCheckDigitApp
 RefactoringAction 1444293971158 TestSudokuVerifier.java RENAME testCheck()=>void testCheckSub() METHOD
 RefactoringAction 1444293973697 TestSudokuVerifier.java RENAME testCheckSub()=>void testCheckSubGrid() METHOD
 EditAction 1444294049317 TestSudokuVerifier.java 2091 5 20 5
+RefactoringAction 1444294095446 SudokuVerifier.java ADD String checkSubGrid(char METHOD
+UnitTestCaseAction 1444294450797 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444294450810 TestSudokuVerifier OK
+UnitTestCaseAction 1444294506148 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444294506149 TestSudokuVerifier OK
+UnitTestCaseAction 1444294612625 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444294612626 TestSudokuVerifier OK
+EditAction 1444294656009 SudokuVerifier.java 2645 5 22 0
