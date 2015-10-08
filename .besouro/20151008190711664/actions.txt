@@ -60,3 +60,10 @@ RefactoringAction 1444323478012 TestSudokuVerifier.java RENAME testCheckSubGrid(
 RefactoringAction 1444323487533 TestSudokuVerifier.java ADD void testCheckSubGridCORRECT()/2 METHOD
 RefactoringAction 1444323493052 TestSudokuVerifier.java RENAME testCheckSubGridCORRECT()/2=>void testCheckSubGridINCORRECT() METHOD
 EditAction 1444323512291 TestSudokuVerifier.java 2566 2 8 2
+UnitTestCaseAction 1444323512893 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444323512893 TestSudokuVerifier OK
+RefactoringAction 1444323531903 TestSudokuVerifier.java ADD void testCheckValidSodukuSolutionCORRECT() METHOD
+RefactoringAction 1444323531905 TestSudokuVerifier.java ADD void testCheckValidSodukuSolutionINCORRECT() METHOD
+RefactoringAction 1444323545926 TestSudokuVerifier.java ADD void testCheckDigitAppearOnlyInRows() METHOD
+RefactoringAction 1444323545928 TestSudokuVerifier.java ADD void testCheckDigitAppearOnlyInColumns() METHOD
+EditAction 1444323549163 TestSudokuVerifier.java 2452 6 24 6
