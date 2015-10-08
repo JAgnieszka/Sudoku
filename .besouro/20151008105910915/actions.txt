@@ -1,0 +1,7 @@
+FileOpenedAction 1444291151528 SudokuVerifier.java 2155 4 18 0
+FileOpenedAction 1444293578206 TestSudokuVerifier.java 2163 4 16 4
+RefactoringAction 1444293929010 TestSudokuVerifier.java ADD void testCheckDigitAppearOnlyInRows()/2 METHOD
+RefactoringAction 1444293969117 TestSudokuVerifier.java RENAME testCheckDigitAppearOnlyInRows()/2=>void testCheck() METHOD
+RefactoringAction 1444293971158 TestSudokuVerifier.java RENAME testCheck()=>void testCheckSub() METHOD
+RefactoringAction 1444293973697 TestSudokuVerifier.java RENAME testCheckSub()=>void testCheckSubGrid() METHOD
+EditAction 1444294049317 TestSudokuVerifier.java 2091 5 20 5

@@ -36,6 +36,22 @@ public class TestSudokuVerifier {
 	}
 
 	// ************************************
+	
+	// **********RULE 2********************
+
+		@Test
+		public void testCheckSubGrid() {
+
+			SudokuVerifier answer = new SudokuVerifier();
+			String result;
+
+			// good answer
+			result = answer.verify(correctString);
+			assertEquals("0", result);
+		}
+
+		// **********************************
+		
 
 	// **********RULE 3********************
 
@@ -67,18 +83,5 @@ public class TestSudokuVerifier {
 
 	// **********************************
 	
-
-	// @Test
-	// public void testCheckAllDigitsAppearOnlyOnceInSubGrid() {
-	// SudokuVerifier answer=new SudokuVerifier();
-	// answer.verifyRuleSecond(3);
-	// assertEquals("0", "0");
-	// answer.verifyRuleSecond(2);
-	// assertEquals("0", "0");
-	// answer.verifyRuleSecond(1);
-	// assertEquals("0", "0");
-	// answer.verifyRuleSecond(3);
-	// assertEquals("-2", "-2");
-	// }
 
 }
