@@ -56,7 +56,7 @@ public class SudokuVerifier {
 		for (int r = 0, c = 0, n = 3, nr = n; r < n && c < n && n <= 9; c = c + 3, n = n + 3) {
 
 			for (int row = r; row < nr; row++) {
-				// System.out.println("R="+row+" N="+ n);
+
 				Set<Character> set = new HashSet<Character>();
 				for (int column = c; column < n; column++) {
 					if (set.contains(tab[row][column])) {
@@ -64,24 +64,20 @@ public class SudokuVerifier {
 					} else {
 						set.add(tab[row][column]);
 					}
-					// System.out.print(" C="+column+" ");
-//					System.out.print(tab[row][column] + " " + "|" + " ");
+
 				}
 
-//				System.out.println();
-//				System.out.println();
 			}
-//			System.out.println("------");
+
 		}
-//		System.out.println("**************************");
+
 		for (int r = 3, c = 0, n = 3; c < n && n <= 9; c = c + 3, n = n + 3) {
-			// System.out.println("r="+r+" n="+ n+" c="+c);
+
 			for (int row = r; row < 6; row++) {
-				// System.out.println("R="+row+" N="+ n);
+
 				Set<Character> set = new HashSet<Character>();
 				for (int column = c; column < n; column++) {
-					// System.out.print(" C="+column+" ");
-//					System.out.print(tab[row][column] + " " + "|" + " ");
+
 					if (set.contains(tab[row][column])) {
 						return "-2";
 					} else {
@@ -89,18 +85,14 @@ public class SudokuVerifier {
 					}
 				}
 
-//				System.out.println();
-//				System.out.println();
 			}
-//			System.out.println("------");
-		}
 
-//		System.out.println("**********************************");
+		}
 
 		for (int r = 6, c = 0, n = 3; c < n && n <= 9; c = c + 3, n = n + 3) {
-			// System.out.println("r="+r+" n="+ n+" c="+c);
+
 			for (int row = r; row < 9; row++) {
-				// System.out.println("R="+row+" N="+ n);
+
 				Set<Character> set = new HashSet<Character>();
 				for (int column = c; column < n; column++) {
 					if (set.contains(tab[row][column])) {
@@ -108,14 +100,11 @@ public class SudokuVerifier {
 					} else {
 						set.add(tab[row][column]);
 					}
-					// System.out.print(" C="+column+" ");
-//					System.out.print(tab[row][column] + " " + "|" + " ");
+
 				}
 
-//				System.out.println();
-//				System.out.println();
 			}
-//			System.out.println("------");
+
 		}
 
 		return "0";

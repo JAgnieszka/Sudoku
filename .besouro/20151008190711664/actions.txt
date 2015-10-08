@@ -78,3 +78,7 @@ EditAction 1444324435735 TestSudokuVerifier.java 2572 6 24 6
 UnitTestCaseAction 1444324436583 TestSudokuVerifier.java OK
 UnitTestSessionAction 1444324436583 TestSudokuVerifier OK
 EditAction 1444324789035 TestSudokuVerifier.java 2604 6 24 6
+RefactoringAction 1444325911872 SudokuVerifier.java ADD void checkSG(char METHOD
+CompilationAction 1444325912275 SudokuVerifier.java
+RefactoringAction 1444325937523 SudokuVerifier.java REMOVE checkSG(char METHOD
+EditAction 1444326175821 TestSudokuVerifier.java 2419 6 24 6
