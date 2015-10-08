@@ -71,9 +71,9 @@ public class SudokuVerifier {
 //				System.out.println();
 //				System.out.println();
 			}
-			System.out.println("------");
+//			System.out.println("------");
 		}
-		System.out.println("**************************");
+//		System.out.println("**************************");
 		for (int r = 3, c = 0, n = 3; c < n && n <= 9; c = c + 3, n = n + 3) {
 			// System.out.println("r="+r+" n="+ n+" c="+c);
 			for (int row = r; row < 6; row++) {
@@ -92,10 +92,10 @@ public class SudokuVerifier {
 //				System.out.println();
 //				System.out.println();
 			}
-			System.out.println("------");
+//			System.out.println("------");
 		}
 
-		System.out.println("**********************************");
+//		System.out.println("**********************************");
 
 		for (int r = 6, c = 0, n = 3; c < n && n <= 9; c = c + 3, n = n + 3) {
 			// System.out.println("r="+r+" n="+ n+" c="+c);
@@ -115,7 +115,7 @@ public class SudokuVerifier {
 //				System.out.println();
 //				System.out.println();
 			}
-			System.out.println("------");
+//			System.out.println("------");
 		}
 
 		return "0";

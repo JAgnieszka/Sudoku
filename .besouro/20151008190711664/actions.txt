@@ -41,3 +41,11 @@ UnitTestSessionAction 1444323096976 TestSudokuVerifier OK
 UnitTestCaseAction 1444323151335 TestSudokuVerifier.java OK
 UnitTestSessionAction 1444323151335 TestSudokuVerifier OK
 EditAction 1444323186917 SudokuVerifier.java 4402 5 26 0
+UnitTestCaseAction 1444323187484 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444323187485 TestSudokuVerifier OK
+UnitTestCaseAction 1444323232866 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444323232866 TestSudokuVerifier OK
+FileOpenedAction 1444323288315 TestSudokuVerifier.java 2205 1 4 1
+RefactoringAction 1444323318841 TestSudokuVerifier.java ADD String incorrectString/2 FIELD
+RefactoringAction 1444323324364 TestSudokuVerifier.java RENAME incorrectString/2=>String incorrectString22 FIELD
+EditAction 1444323447209 TestSudokuVerifier.java 2408 1 6 2
