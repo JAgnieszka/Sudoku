@@ -33,3 +33,10 @@
 1444324436595 test-addition 2 904 true
 1444324436596 test-addition 1 904 true
 1444324436597 test-addition 2 904 true
+1444326197003 refactoring 2B 1407 true
+1444326197004 regression 2 1407 true
+1444326197005 refactoring 2B 1407 true
+1444326197006 regression 1 1407 true
+1444326300432 refactoring 2B 16 true
+1444326300433 refactoring 2B 16 true
+1444326300434 regression 1 16 true

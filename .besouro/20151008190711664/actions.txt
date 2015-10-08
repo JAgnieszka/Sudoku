@@ -82,3 +82,9 @@ RefactoringAction 1444325911872 SudokuVerifier.java ADD void checkSG(char METHOD
 CompilationAction 1444325912275 SudokuVerifier.java
 RefactoringAction 1444325937523 SudokuVerifier.java REMOVE checkSG(char METHOD
 EditAction 1444326175821 TestSudokuVerifier.java 2419 6 24 6
+UnitTestCaseAction 1444326197003 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444326197003 TestSudokuVerifier OK
+RefactoringAction 1444326284348 SudokuVerifier.java REMOVE checkSubGrid(char METHOD
+RefactoringAction 1444326293407 SudokuVerifier.java ADD String checkSubGrid(char METHOD
+UnitTestCaseAction 1444326300432 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444326300432 TestSudokuVerifier OK

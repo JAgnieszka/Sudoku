@@ -19,3 +19,5 @@
 1444323447832 test-addition 1 214 false
 1444323512893 test-addition 1 65 false
 1444324436583 test-addition 2 923 false
+1444326197003 refactoring 2B 1760 false
+1444326300432 refactoring 2B 103 false

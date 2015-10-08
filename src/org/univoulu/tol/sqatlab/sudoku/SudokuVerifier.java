@@ -47,67 +47,7 @@ public class SudokuVerifier {
 			return "-4";
 		}
 
-		System.out.println("RESULT " + result);
 		return result;
-	}
-
-	private String checkSubGrid(char[][] tab) {
-
-		for (int r = 0, c = 0, n = 3, nr = n; r < n && c < n && n <= 9; c = c + 3, n = n + 3) {
-
-			for (int row = r; row < nr; row++) {
-
-				Set<Character> set = new HashSet<Character>();
-				for (int column = c; column < n; column++) {
-					if (set.contains(tab[row][column])) {
-						return "-2";
-					} else {
-						set.add(tab[row][column]);
-					}
-
-				}
-
-			}
-
-		}
-
-		for (int r = 3, c = 0, n = 3; c < n && n <= 9; c = c + 3, n = n + 3) {
-
-			for (int row = r; row < 6; row++) {
-
-				Set<Character> set = new HashSet<Character>();
-				for (int column = c; column < n; column++) {
-
-					if (set.contains(tab[row][column])) {
-						return "-2";
-					} else {
-						set.add(tab[row][column]);
-					}
-				}
-
-			}
-
-		}
-
-		for (int r = 6, c = 0, n = 3; c < n && n <= 9; c = c + 3, n = n + 3) {
-
-			for (int row = r; row < 9; row++) {
-
-				Set<Character> set = new HashSet<Character>();
-				for (int column = c; column < n; column++) {
-					if (set.contains(tab[row][column])) {
-						return "-2";
-					} else {
-						set.add(tab[row][column]);
-					}
-
-				}
-
-			}
-
-		}
-
-		return "0";
 	}
 
 	private String checkColumns(char[][] tab2) {
@@ -172,6 +112,65 @@ public class SudokuVerifier {
 		}
 		return "-1";
 
+	}
+
+	private String checkSubGrid(char[][] tab) {
+
+		for (int r = 0, c = 0, n = 3, nr = n; r < n && c < n && n <= 9; c = c + 3, n = n + 3) {
+
+			for (int row = r; row < nr; row++) {
+
+				Set<Character> set = new HashSet<Character>();
+				for (int column = c; column < n; column++) {
+					if (set.contains(tab[row][column])) {
+						return "-2";
+					} else {
+						set.add(tab[row][column]);
+					}
+
+				}
+
+			}
+
+		}
+
+		for (int r = 3, c = 0, n = 3; c < n && n <= 9; c = c + 3, n = n + 3) {
+
+			for (int row = r; row < 6; row++) {
+
+				Set<Character> set = new HashSet<Character>();
+				for (int column = c; column < n; column++) {
+
+					if (set.contains(tab[row][column])) {
+						return "-2";
+					} else {
+						set.add(tab[row][column]);
+					}
+				}
+
+			}
+
+		}
+
+		for (int r = 6, c = 0, n = 3; c < n && n <= 9; c = c + 3, n = n + 3) {
+
+			for (int row = r; row < 9; row++) {
+
+				Set<Character> set = new HashSet<Character>();
+				for (int column = c; column < n; column++) {
+					if (set.contains(tab[row][column])) {
+						return "-2";
+					} else {
+						set.add(tab[row][column]);
+					}
+
+				}
+
+			}
+
+		}
+
+		return "0";
 	}
 
 }
