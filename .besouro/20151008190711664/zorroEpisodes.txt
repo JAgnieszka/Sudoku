@@ -6,3 +6,11 @@
 1444321076635 refactoring 2A 31 false
 1444321913137 regression 1 836 false
 1444322222920 refactoring 2A 309 false
+1444322233190 refactoring 2A 10 false
+1444322322730 regression 1 89 false
+1444322344659 regression 1 21 false
+1444322377002 regression 1 32 false
+1444322543576 regression 1 166 false
+1444322863144 regression 1 319 false
+1444323096976 regression 1 233 false
+1444323151335 regression 1 54 false

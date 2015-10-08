@@ -24,3 +24,20 @@ UnitTestSessionAction 1444322134015 TestSudokuVerifier FAIL
 UnitTestCaseAction 1444322222919 TestSudokuVerifier.java OK
 UnitTestSessionAction 1444322222920 TestSudokuVerifier OK
 EditAction 1444322232543 SudokuVerifier.java 3400 5 24 0
+UnitTestCaseAction 1444322233189 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444322233190 TestSudokuVerifier OK
+UnitTestCaseAction 1444322322730 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444322322730 TestSudokuVerifier OK
+UnitTestCaseAction 1444322344658 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444322344659 TestSudokuVerifier OK
+UnitTestCaseAction 1444322377002 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444322377002 TestSudokuVerifier OK
+UnitTestCaseAction 1444322543576 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444322543576 TestSudokuVerifier OK
+UnitTestCaseAction 1444322863143 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444322863144 TestSudokuVerifier OK
+UnitTestCaseAction 1444323096975 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444323096976 TestSudokuVerifier OK
+UnitTestCaseAction 1444323151335 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444323151335 TestSudokuVerifier OK
+EditAction 1444323186917 SudokuVerifier.java 4402 5 26 0
