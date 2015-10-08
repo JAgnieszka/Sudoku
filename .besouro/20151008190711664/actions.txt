@@ -72,3 +72,6 @@ UnitTestSessionAction 1444323549767 TestSudokuVerifier FAIL
 RefactoringAction 1444324346935 TestSudokuVerifier.java ADD String incorrectString/2 FIELD
 RefactoringAction 1444324349452 TestSudokuVerifier.java REMOVE incorrectString/2 FIELD
 EditAction 1444324366466 TestSudokuVerifier.java 2573 6 24 6
+UnitTestCaseAction 1444324367062 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444324367063 TestSudokuVerifier FAIL
+EditAction 1444324435735 TestSudokuVerifier.java 2572 6 24 6
